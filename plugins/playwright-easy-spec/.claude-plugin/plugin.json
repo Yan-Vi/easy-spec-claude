@@ -3,11 +3,5 @@
   "displayName": "Easy Spec - Playwright",
   "description": "CLI, MCP server, and skill for the Easy Spec - Playwright project format -- create, edit, inspect, and replay Flows / Page Objects / Scenarios, live-driving a connected Chrome extension side panel when one is open.",
   "version": "1.0.0",
-  "mcpServers": {
-    "playwright-easy-spec": {
-      "command": "npm",
-      "args": ["--prefix", "${CLAUDE_PLUGIN_ROOT}/easy-spec-mcp", "run", "start", "--silent"]
-    }
-  },
   "skills": "./skills/"
 }

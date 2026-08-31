@@ -5,6 +5,22 @@
 // reports back. This process is a thin relay: it holds no fs adapter and spawns no browser/test
 // process of its own, so an assistant connected via MCP can only ever ask the extension to do
 // something, never do that thing in its place.
+
+// This plugin ships without node_modules (git-distributed, not npm-published), so a fresh
+// checkout has no dependencies yet. Installing here, before the first require() of a dependency,
+// means the very first spawn works with no separate setup step -- important on Windows, where the
+// MCP client spawns `command` directly (no shell), so `npm`/`npx` can't be the command itself
+// (they resolve to npm.cmd, not a real .exe); execSync is safe here because it always runs
+// through a shell, unlike the plain spawn the MCP client uses to launch this process.
+if (!require('fs').existsSync(require('path').join(__dirname, 'node_modules'))) {
+  console.error('[playwright-easy-spec] First run: installing dependencies...');
+  require('child_process').execSync('npm install --omit=dev --no-audit --no-fund --silent', {
+    cwd: __dirname,
+    stdio: ['ignore', 'ignore', 'ignore'],
+  });
+  console.error('[playwright-easy-spec] Dependencies installed.');
+}
+
 const { McpServer } = require('@modelcontextprotocol/sdk/server/mcp.js');
 const { StdioServerTransport } = require('@modelcontextprotocol/sdk/server/stdio.js');
 const { z } = require('zod');

@@ -5,7 +5,7 @@
   "description": "MCP server for Easy Spec - Playwright -- a thin relay that forwards every operation over the bridge to a connected side panel; it never reads project files or drives a browser itself.",
   "main": "server.js",
   "scripts": {
-    "start": "npm install --omit=dev --no-audit --no-fund --silent && node server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",

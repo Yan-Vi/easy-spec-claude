@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "playwright-easy-spec",
-      "source": "./",
+      "source": "./plugins/playwright-easy-spec",
       "description": "CLI, MCP server, and skill for the Easy Spec - Playwright project format."
     }
   ]
