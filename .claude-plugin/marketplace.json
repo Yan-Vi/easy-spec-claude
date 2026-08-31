@@ -1,0 +1,13 @@
+{
+  "name": "easy-spec-marketplace",
+  "owner": {
+    "name": "Easy Spec"
+  },
+  "plugins": [
+    {
+      "name": "playwright-easy-spec",
+      "source": "./",
+      "description": "CLI, MCP server, and skill for the Easy Spec - Playwright project format."
+    }
+  ]
+}
