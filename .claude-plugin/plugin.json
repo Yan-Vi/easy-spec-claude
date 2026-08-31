@@ -5,8 +5,8 @@
   "version": "1.0.0",
   "mcpServers": {
     "playwright-easy-spec": {
-      "command": "node",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/easy-spec-mcp/server.js"]
+      "command": "npm",
+      "args": ["--prefix", "${CLAUDE_PLUGIN_ROOT}/easy-spec-mcp", "run", "start", "--silent"]
     }
   },
   "skills": "./skills/"
