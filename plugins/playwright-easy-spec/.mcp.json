@@ -1,6 +1,6 @@
 {
   "playwright-easy-spec": {
     "command": "npx",
-    "args": ["-y", "@playwright/mcp@latest"]
+    "args": ["-y", "easy-spec-mcp"]
   }
 }
