@@ -1,7 +1,11 @@
 {
-  "name": "playwright-easy-spec",
+  "name": "easy-spec",
   "displayName": "Easy Spec - Playwright",
   "description": "CLI, MCP server, and skill for the Easy Spec - Playwright project format -- create, edit, inspect, and replay Flows / Page Objects / Scenarios, live-driving a connected Chrome extension side panel when one is open.",
   "version": "1.0.2",
-  "skills": "./skills/"
+  "skills": "./skills/",
+  "author": {
+    "name": "Vitalii Yanchuk",
+    "email": "yan4uk.v@gmail.com"
+  }
 }

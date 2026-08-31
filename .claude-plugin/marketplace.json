@@ -1,12 +1,15 @@
 {
   "name": "easy-spec-marketplace",
+  "version": "1.0.2",
+  "description": "Marketplace for Easy Spec - Playwright crx",
   "owner": {
-    "name": "Easy Spec"
+    "name": "Vitalii Yanchuk",
+    "email": "yan4uk.v@gmail.com"
   },
   "plugins": [
     {
-      "name": "playwright-easy-spec",
-      "source": "./plugins/playwright-easy-spec",
+      "name": "easy-spec",
+      "source": "./plugins/easy-spec",
       "description": "CLI, MCP server, and skill for the Easy Spec - Playwright project format."
     }
   ]
