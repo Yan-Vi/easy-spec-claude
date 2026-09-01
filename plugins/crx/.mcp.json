@@ -1,5 +1,5 @@
 {
-  "playwright-easy-spec": {
+  "crx": {
     "command": "npx",
     "args": ["-y", "easy-spec-mcp"]
   }
