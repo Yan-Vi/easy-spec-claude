@@ -1,5 +1,5 @@
 {
-  "name": "easy-spec-marketplace",
+  "name": "easy-spec",
   "version": "1.0.2",
   "description": "Marketplace for Easy Spec - Playwright crx",
   "owner": {
@@ -8,7 +8,7 @@
   },
   "plugins": [
     {
-      "name": "easy-spec",
+      "name": "crx",
       "source": "./plugins/crx",
       "description": "CLI, MCP server, and skill for the Easy Spec - Playwright project format."
     }
