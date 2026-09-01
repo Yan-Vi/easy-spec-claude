@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "easy-spec",
-      "source": "./plugins/easy-spec",
+      "source": "./plugins/crx",
       "description": "CLI, MCP server, and skill for the Easy Spec - Playwright project format."
     }
   ]
