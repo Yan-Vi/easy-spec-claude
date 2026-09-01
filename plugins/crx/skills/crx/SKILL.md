@@ -1,5 +1,5 @@
 ---
-name: playwright-easy-spec
+name: crx
 description: Use when creating, editing, inspecting, or replaying Flows / Page Objects / Scenarios in an Easy Spec - Playwright project (flows/*.flow.json, pages/*.page.json, scenarios/*.scenario.json, variables.json) via the `easyspec` CLI or the playwright-easy-spec MCP tools -- e.g. "add a step to the login flow", "create a page object", "replay this scenario", "what flows exist in this project", "list the steps in <flow>".
 ---
 
