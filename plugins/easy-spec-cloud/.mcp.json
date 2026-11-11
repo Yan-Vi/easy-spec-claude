@@ -1,0 +1,6 @@
+{
+  "easy-spec-cloud": {
+    "type": "http",
+    "url": "https://cloud.easy-spec-crx.com/mcp"
+  }
+}

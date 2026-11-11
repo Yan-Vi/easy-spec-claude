@@ -1,0 +1,9 @@
+{
+  "name": "easy-spec-cloud",
+  "displayName": "Easy Spec - Cloud",
+  "description": "The hosted Easy Spec MCP server.",
+  "version": "1.0.0",
+  "author": {
+    "name": "EasyHealth"
+  }
+}

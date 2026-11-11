@@ -1,0 +1,14 @@
+{
+  "name": "easy-spec",
+  "description": "Easy Spec on the hosted server",
+  "owner": {
+    "name": "EasyHealth"
+  },
+  "plugins": [
+    {
+      "name": "easy-spec-cloud",
+      "source": "./plugins/easy-spec-cloud",
+      "description": "Registers the hosted Easy Spec MCP server: suites, flows, page objects, utils, datasets, secrets, and live control of a connected Chrome side panel."
+    }
+  ]
+}
